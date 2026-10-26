@@ -1,4 +1,4 @@
-# Nandi – Android Management App
+# Android Management App
 
 Nandi is an Android application built with Java and XML in Android Studio. The project includes screens for managing customers, products, and prices, with local SQLite storage and Firebase Realtime Database integration.
 
@@ -42,7 +42,15 @@ Nandi is an Android application built with Java and XML in Android Studio. The p
 
 In Android Studio, choose **Build → Make Project**. Then run the app and test registration/login, customer entry/list/deletion, product entry/list/deletion, price entry/list/deletion, and Firebase-backed operations.
 
-## Notes
+## Screenshots
+<img width="390" height="688" alt="image" src="https://github.com/user-attachments/assets/62d85ea5-f670-44b8-b80f-ea406f583188" />
+<img width="387" height="681" alt="image" src="https://github.com/user-attachments/assets/1c6bea8d-5762-4ba8-a782-3beb43671c4b" />
+
+<img width="388" height="684" alt="image" src="https://github.com/user-attachments/assets/662c83b6-07dd-4a0a-b082-f0546b7a7cc6" />
+
+<img width="382" height="682" alt="image" src="https://github.com/user-attachments/assets/f210c096-d9fd-47d0-90f8-7d8f78ba5705" />
+
+
 
 - `local.properties` is intentionally excluded because it contains a machine-specific Android SDK path.
 - Gradle caches and generated `build/` output are excluded from version control.
