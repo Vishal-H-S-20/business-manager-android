@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Products">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="90dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Code *"
+            android:text=""
+            android:maxLength="12"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/viiiiiii"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Description 1 *"
+            android:text=""
+            android:maxLength="30"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product despriction 2   (Optional) *"
+            android:text=""
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Type *"
+            android:text=""
+            android:maxLength="2"
+            android:inputType="number"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_um"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Unit Of Mesurument *"
+            android:text=""
+            android:maxLength="2"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pt_tax_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product Tax Code *"
+            android:text=""
+            android:textColor="#E101284A"
+            android:inputType="textEmailSubject"
+            android:maxLength="15"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/create_Product"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/aclonica"
+        android:text="Create"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/view_products"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/aclonica"
+        android:text="View Products"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

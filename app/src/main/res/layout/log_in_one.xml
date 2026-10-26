@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInOne">
+
+
+
+    <ImageView
+        android:id="@+id/logiiiiin"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/nandi_icoooon"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/viiiiiii"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logiiiiin"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:text=""
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/passwordgroup"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_below="@id/viiiiiii"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordinputone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Set password"
+            android:maxLength="10"
+            android:text=""
+            android:ems="6"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="#E901284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/vivivi"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_below="@id/passwordgroup"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordinputtwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Re-Enter password"
+            android:maxLength="10"
+            android:text=""
+            android:ems="6"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="#DF01284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/vivivi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/aclonica"
+        android:text="Set"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

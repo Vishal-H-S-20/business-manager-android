@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Customer">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="90dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Code *"
+            android:text=""
+            android:maxLength="12"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/viiiiiii"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Name *"
+            android:text=""
+            android:maxLength="10"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Region *"
+            android:text=""
+            android:maxLength="3"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_sls_pns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Sales Person *"
+            android:text=""
+            android:maxLength="3"
+            android:inputType="textEmailSubject"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Type *"
+            android:text=""
+            android:maxLength="2"
+            android:inputType="number"
+            android:textColor="#E101284A"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cm_lst_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Local Sales Tax *"
+            android:text=""
+            android:textColor="#E101284A"
+            android:inputType="textEmailSubject"
+            android:maxLength="15"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/create_customer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/aclonica"
+        android:text="Create"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/view_customer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/aclonica"
+        android:text="View Customers"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

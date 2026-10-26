@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393400717522",
+    "project_id": "nandiv2",
+    "storage_bucket": "nandiv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393400717522:android:1481f47362793b29d99d0b",
+        "android_client_info": {
+          "package_name": "com.example.nandivishal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393400717522-qenc1p6ng3c1898rm47pn23vlbnpj3bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrTDgnJrelSatkvHLg_nughRpmp1maDLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393400717522-qenc1p6ng3c1898rm47pn23vlbnpj3bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

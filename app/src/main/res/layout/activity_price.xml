@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Price">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="50dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Code *"
+                android:text=""
+                android:maxLength="12"
+                android:inputType="textEmailSubject"
+                android:textColor="#E101284A"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/viiiiiii"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Date *"
+                android:text=""
+                android:maxLength="8"
+                android:inputType="date"
+                android:textColor="#E101284A"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_pt_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Per Unit *"
+                android:text=""
+                android:maxLength="2"
+                android:inputType="textEmailSubject"
+                android:textColor="#E101284A"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price *"
+                android:text=""
+
+                android:inputType="number"
+                android:textColor="#E101284A"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_mrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter MRP *"
+                android:text=""
+
+                android:inputType="number"
+                android:textColor="#E101284A"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Type *"
+                android:text=""
+                android:textColor="#E101284A"
+                android:inputType="number"
+                android:maxLength="2"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pr_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price Default (Y/N) *"
+                android:text=""
+                android:textColor="#E101284A"
+                android:inputType="textEmailSubject"
+                android:maxLength="1"
+                android:textSize="17sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/aclonica"
+            android:text="Enter Price Date"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/create_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/aclonica"
+            android:text="Create"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/view_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/aclonica"
+            android:text="View Price"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+
+
+</ScrollView>
