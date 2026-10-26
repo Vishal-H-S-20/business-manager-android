@@ -50,6 +50,8 @@ In Android Studio, choose **Build → Make Project**. Then run the app and test 
 
 <img width="382" height="682" alt="image" src="https://github.com/user-attachments/assets/f210c096-d9fd-47d0-90f8-7d8f78ba5705" />
 
+## Notes
+
 
 
 - `local.properties` is intentionally excluded because it contains a machine-specific Android SDK path.
